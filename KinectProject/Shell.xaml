@@ -1,0 +1,17 @@
+﻿<Window x:Class="KinectProject.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://www.codeplex.com/prism"
+        xmlns:common="clr-namespace:Common;assembly=Common"
+        xmlns:kinect="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers"
+        Title="Wpf Project" WindowState="Maximized" WindowStyle = "None">
+    <Grid Width="auto" Height="auto" Background="#22282A">
+        <Grid Margin="10">
+            <ContentControl Name="RegionMain" prism:RegionManager.RegionName="{x:Static common:Constant.RegionMain}"
+                            Width="auto" Height="auto" />
+            <kinect:KinectSensorChooser Name="KinectSensorChooser" />
+        </Grid>
+        <Ellipse Margin="0,0,0,0" Height="40" HorizontalAlignment="Left" Name="RightHand" Stroke="Red" VerticalAlignment="Bottom" Width="40" Visibility="Hidden" StrokeThickness="5" />
+        <Ellipse Margin="0,0,0,0" Height="40" HorizontalAlignment="Left" Name="LeftHand" Stroke="Red" VerticalAlignment="Bottom" Width="40" Visibility="Hidden" StrokeThickness="5" />
+    </Grid>
+</Window>

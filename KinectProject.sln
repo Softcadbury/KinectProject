@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectProject", "KinectProject\KinectProject.csproj", "{FBDEF11C-76D7-4D5A-98F6-9273B213ADE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{57DE73B2-DF3A-4662-830F-9392715FC913}"
+	ProjectSection(SolutionItems) = preProject
+		Assemblies\Microsoft.Practices.Prism.dll = Assemblies\Microsoft.Practices.Prism.dll
+		Assemblies\Microsoft.Practices.Prism.UnityExtensions.dll = Assemblies\Microsoft.Practices.Prism.UnityExtensions.dll
+		Assemblies\Microsoft.Practices.ServiceLocation.dll = Assemblies\Microsoft.Practices.ServiceLocation.dll
+		Assemblies\Microsoft.Practices.Unity.dll = Assemblies\Microsoft.Practices.Unity.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F0D3B725-6011-4263-B594-B93FE05FED8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleImageViewer", "ModuleImageViewer\ModuleImageViewer.csproj", "{F1B2C941-8648-4E25-A753-7F54A6C55A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleVideoPlayer", "ModuleVideoPlayer\ModuleVideoPlayer.csproj", "{997C6CC1-4C5C-4E45-9650-9628AD4501AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleMusicPlayer", "ModuleMusicPlayer\ModuleMusicPlayer.csproj", "{48643991-CB59-4582-86BA-6E011128A655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleTextReader", "ModuleTextReader\ModuleTextReader.csproj", "{17CF4A08-E204-4D6D-A8CA-5F1C91EBAF0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleExplorerType", "ModuleExplorerType\ModuleExplorerType.csproj", "{FD4F750E-A6F8-4DD6-8BDE-D49B48F83714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleExplorerFile", "ModuleExplorerFile\ModuleExplorerFile.csproj", "{3099C93C-554A-4A88-9974-A2243541316F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleStart", "ModuleStart\ModuleStart.csproj", "{733C063A-B1BA-40E9-9AAA-A45F5D44DC6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectWpfViewers", "KinectWpfViewers\KinectWpfViewers.csproj", "{4DE23893-27E7-423F-9BB6-BA21DAC2C45E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBDEF11C-76D7-4D5A-98F6-9273B213ADE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBDEF11C-76D7-4D5A-98F6-9273B213ADE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBDEF11C-76D7-4D5A-98F6-9273B213ADE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBDEF11C-76D7-4D5A-98F6-9273B213ADE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D3B725-6011-4263-B594-B93FE05FED8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D3B725-6011-4263-B594-B93FE05FED8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D3B725-6011-4263-B594-B93FE05FED8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D3B725-6011-4263-B594-B93FE05FED8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B2C941-8648-4E25-A753-7F54A6C55A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B2C941-8648-4E25-A753-7F54A6C55A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B2C941-8648-4E25-A753-7F54A6C55A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B2C941-8648-4E25-A753-7F54A6C55A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997C6CC1-4C5C-4E45-9650-9628AD4501AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997C6CC1-4C5C-4E45-9650-9628AD4501AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997C6CC1-4C5C-4E45-9650-9628AD4501AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997C6CC1-4C5C-4E45-9650-9628AD4501AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48643991-CB59-4582-86BA-6E011128A655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48643991-CB59-4582-86BA-6E011128A655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48643991-CB59-4582-86BA-6E011128A655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48643991-CB59-4582-86BA-6E011128A655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CF4A08-E204-4D6D-A8CA-5F1C91EBAF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CF4A08-E204-4D6D-A8CA-5F1C91EBAF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CF4A08-E204-4D6D-A8CA-5F1C91EBAF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CF4A08-E204-4D6D-A8CA-5F1C91EBAF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4F750E-A6F8-4DD6-8BDE-D49B48F83714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4F750E-A6F8-4DD6-8BDE-D49B48F83714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4F750E-A6F8-4DD6-8BDE-D49B48F83714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4F750E-A6F8-4DD6-8BDE-D49B48F83714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3099C93C-554A-4A88-9974-A2243541316F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3099C93C-554A-4A88-9974-A2243541316F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3099C93C-554A-4A88-9974-A2243541316F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3099C93C-554A-4A88-9974-A2243541316F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733C063A-B1BA-40E9-9AAA-A45F5D44DC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733C063A-B1BA-40E9-9AAA-A45F5D44DC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733C063A-B1BA-40E9-9AAA-A45F5D44DC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733C063A-B1BA-40E9-9AAA-A45F5D44DC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE23893-27E7-423F-9BB6-BA21DAC2C45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE23893-27E7-423F-9BB6-BA21DAC2C45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE23893-27E7-423F-9BB6-BA21DAC2C45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE23893-27E7-423F-9BB6-BA21DAC2C45E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
